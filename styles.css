@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e9ecef; /* Cor de fundo suave */
+    background-color: #e9ecef;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,16 +12,16 @@ body {
     background-color: rgb(255, 253, 253);
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
     width: 300px;
-    transition: transform 0.2s; /* Transição suave */
+    transition: transform 0.2s; 
 }
 
 
 h2 {
     margin-bottom: 1rem;
     text-align: center;
-    color: #000000; /* Cor do título */
+    color: #000000;
 }
 
 .input-group {
@@ -31,20 +31,20 @@ h2 {
 label {
     display: block;
     margin-bottom: 0.5rem;
-    color: #495057; /* Cor do texto do rótulo */
+    color: #495057; 
 }
 
 input {
     width: 100%;
     padding: 0.5rem;
-    border: 1px solid #ced4da; /* Cor da borda */
+    border: 1px solid #ced4da; 
     border-radius: 4px;
-    transition: border-color 0.2s; /* Transição suave para foco */
+    transition: border-color 0.2s; 
 }
 
 input:focus {
-    border-color: #007BFF; /* Borda azul ao focar */
-    outline: none; /* Remove a borda padrão */
+    border-color: #007BFF; 
+    outline: none;
 }
 
 button {
@@ -56,11 +56,11 @@ button {
     border-radius: 4px;
     cursor: pointer;
     font-size: 1rem;
-    transition: background-color 0.2s; /* Transição suave */
+    transition: background-color 0.2s; 
 }
 
 button:hover {
-    background-color: #212325; /* Cor mais escura ao passar o mouse */
+    background-color: #212325; 
 }
 
 #message, #registerMessage {
@@ -70,5 +70,5 @@ button:hover {
 }
 
 p {
-    text-align: center; /* Centraliza o texto dos parágrafos */
+    text-align: center; 
 }
